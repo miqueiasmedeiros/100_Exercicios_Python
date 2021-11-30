@@ -9,7 +9,7 @@ print('O dobro de {} vale {}'.format(n, d))
 print('O triplo de {} vale {}'.format(n, t))
 print('A raiz quadrada de {} é igual a {:.1f}'.format(n, r))
 
-# exemplo 2
+# exemplo 2 com pow()
 n = int(input('Digite um número: '))
 print('O Dobro de {} vale {}'.format(n, (n * 2)))
 print('O triplo de {} vale {}'.format(n, (n * 3)))
