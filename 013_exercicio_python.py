@@ -5,6 +5,5 @@ rodado.
 '''
 dias = int(input('Quantos dias alugados? '))
 km = int(input('Quantos km Rodados? '))
-totaldias = dias * 60
-totalkm = km * 0.15
-print('O total a pagar é de R${:.2f}'.format(totalkm + totaldias))
+pago = (dias * 60) + (km * 0.15)
+print('O total a pagar é de R${:.2f}'.format(pago))
